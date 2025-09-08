@@ -1,0 +1,12 @@
+{
+  "installation": {
+    "version": "21.4.1",
+    "plugins": {
+      "@nx/eslint": "21.4.1",
+      "@nx/vite": "21.4.1"
+    }
+  },
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "defaultBase": "master",
+  "nxCloudId": "68be7e658a802a01136f9bd4"
+}
