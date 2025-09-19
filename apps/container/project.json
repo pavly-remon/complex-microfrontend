@@ -1,0 +1,32 @@
+{
+  "name": "container",
+  "sourceRoot": "apps/container/src",
+  "projectType": "application",
+  "tags": [
+    "scope:container",
+    "type:app"
+  ],
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "webpack --config ./webpack/webpack.prod.js",
+        "cwd": "apps/container"
+      }
+    },
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "webpack serve --config ./webpack/webpack.dev.js",
+        "cwd": "apps/container"
+      }
+    },
+    "start": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "webpack serve --config ./webpack/webpack.dev.js",
+        "cwd": "apps/container"
+      }
+    }
+  }
+}
