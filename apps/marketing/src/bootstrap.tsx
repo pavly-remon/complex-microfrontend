@@ -9,6 +9,7 @@ const mount = (el: HTMLElement) => {
 if (process.env.NODE_ENV === "development") {
   const devRoot = document.getElementById("_marketing-dev-root");
   if (devRoot) {
+    
     mount(devRoot);
   }
 }
