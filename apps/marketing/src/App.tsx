@@ -1,6 +1,6 @@
-import React from "react";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
 import { StylesProvider } from "@material-ui/core/styles";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "./index.scss";
 
 import Landing from "./components/Landing";
 import Pricing from "./components/Pricing";

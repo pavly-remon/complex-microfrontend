@@ -1,0 +1,46 @@
+.hIWrapper {
+  position: relative;
+  width: 80%;
+}
+.hIPreview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  pointer-events: none;
+}
+.hIInput {
+  position: relative;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  color: transparent;
+  caret-color: black;
+  font-size: 1.25rem;
+  &:focus {
+    outline: none;
+    border-color: #4646ff;
+    box-shadow: 0 0 0 2px #4646ff;
+    animation: cursor-blink 1s infinite;
+  }
+}
+
+@keyframes cursor-blink {
+  0%,
+  50% {
+    caret-color: black;
+  }
+  51%,
+  100% {
+    caret-color: transparent;
+  }
+}
