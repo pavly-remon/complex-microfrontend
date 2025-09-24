@@ -1,0 +1,16 @@
+#container {
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  border-bottom: solid 1px #e5e5e5;
+}
+#container .app-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#container .login-link {
+  color: blue;
+  padding: 0.5rem 1rem;
+  border: solid 1px blue;
+  border-radius: 5px;
+}
