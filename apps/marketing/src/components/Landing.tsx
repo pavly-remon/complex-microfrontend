@@ -31,7 +31,11 @@ const useStyles = makeStyles((theme) => ({
       textDecoration: "none",
     },
   },
-  inputWrapper: { margin: "3rem" },
+  inputWrapper: {
+    margin: "3rem",
+    display: "flex",
+    justifyContent: "center",
+  },
   icon: {
     marginRight: theme.spacing(2),
   },
